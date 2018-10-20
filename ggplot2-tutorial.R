@@ -148,7 +148,7 @@
     )
     
     # Plot the number of movies each director has.
-    qplot(director, data = movies, geom = "bar", ylab = "# movies")
+qplot(director, data = movies, geom = "bar")
     # By default, the height of each bar is simply a count.
     
     # But we can also supply a different weight.
